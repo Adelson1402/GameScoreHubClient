@@ -1,0 +1,17 @@
+
+<div class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Game Search</mat-label>
+      <input matInput placeholder="Game" #inputGameSearch >
+          <mat-icon class="searchIcon" (click)="searchGame(inputGameSearch.value)" matSuffix>search</mat-icon>
+    </mat-form-field>
+</div>
+
+<div class="banner">
+</div>
+
+<!--Passar isso para outro component utilizando @Input()-->
+<div *ngFor="let item of gameInfo">
+    <img [src]="item?.cover?.cover">
+    <h1 class="label-name">{{item?.name}}</h1>
+</div>

@@ -1,0 +1,31 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 30px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .searchIcon {
+    cursor: pointer;
+  }
+
+  .banner {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+ 
+  .label-name {
+    color: white;
+  }
